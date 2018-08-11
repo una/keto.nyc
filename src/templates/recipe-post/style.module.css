@@ -1,0 +1,17 @@
+.nutrition {
+  list-style: none;
+  display: flex;
+}
+
+.nutrition li {
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+  text-align: center;
+}
+
+.value {
+  padding: 2rem 0;
+  font-size: 2rem;
+  border: 1px solid lightgray;
+}

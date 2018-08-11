@@ -2,20 +2,19 @@
 title: "Keto Strawberry Cheesecake Cupcakes"
 date: '2018-07-22'
 type: recipe
-fun-fact: "This recipe was first made for Una's 26th birthday"
+funFact: "This recipe was first made for Una's 26th birthday"
 image1: './media/salty-egg.jpg'
 image2: ''
 servings: 12
-net-carbs: 2.5
+netCarbs: 2.5
 calories: 178
 fat: 6
 carbs: 12
 fiber: 2
 sugars: 8.5
-time:
-  - prep: "10 mins"
-  - cook: "15 mins"
-  - ready: "8.5 hours"
+prepTime: "10 mins"
+cookTime: "15 mins"
+readyTime: "8.5 hours"
 ---
 
 ## You'll Need:
