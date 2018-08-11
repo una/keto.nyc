@@ -1,14 +1,37 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: "Keto Strawberry Cheesecake Cupcakes"
+date: '2018-07-22'
+type: recipe
+fun-fact: "This recipe was first made for Una's 26th birthday"
+image1: './media/salty-egg.jpg'
+image2: ''
+servings: 12
+net-carbs: 2.5
+calories: 178
+fat: 6
+carbs: 12
+fiber: 2
+sugars: 8.5
+time:
+  - prep: "10 mins"
+  - cook: "15 mins"
+  - ready: "8.5 hours"
 ---
 
-This is my first post on my new fake blog! How exciting!
+## You'll Need:
 
-I'm sure I'll write a lot more interesting things in the future.
+- 1/2 cup almond meal
+- 1/4 cup butter, melted
+- 2 (8 ounce) packages cream cheese, softened
+- 2 eggs
+- 3/4 cup Erythritol Sweetener
+- 1 teaspoon vanilla extract
+- A few sliced Strawberries
 
-Oh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+## Directions:
 
->A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+1. Preheat oven to 350 degrees F (175 degrees C). Line 12 muffin cups with paper liners.
+2. Mix almond meal and butter together in a bowl; spoon into the bottoms of the paper liners and press into a flat crust.
+3. Beat cream cheese, eggs, sweetener, and vanilla extract together in a bowl with an electric mixer set to medium until smooth; spoon over the crust layer in the paper liners.
+4. Bake in the preheated oven until the cream cheese mixture is nearly set in the middle, 15 to 17 minutes.
+5. Let cupcakes cool at room temperature until cool enough to handle. Refrigerate 8 hours to overnight before serving.
