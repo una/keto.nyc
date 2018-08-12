@@ -1,6 +1,6 @@
 
 /* Import Type */
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:300,300i,700,700i');
 
 html > * {
   box-sizing: border-box;
@@ -19,7 +19,7 @@ h1 {
 ul,
 ol {
   padding: 0;
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
 figure,

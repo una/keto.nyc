@@ -26,12 +26,12 @@ class BlogPostTemplate extends React.Component {
 
             <ul className={style.nutrition}>
               <li><span className={style.value}>{info.servings}</span>servings</li>
-              <li><span className={style.value}>{info.netCarbs}</span>net carbs</li>
               <li><span className={style.value}>{info.calories}</span>calories</li>
+              <li><span className={style.value}>{info.netCarbs}</span>net carbs (g)</li>
               <li><span className={style.value}>{info.fat}</span>fat (g)</li>
-              <li><span className={style.value}>{info.carbs}</span>carbs (g)</li>
+              <li><span className={style.value}>{info.protein}</span>protein (g)</li>
+              <li><span className={style.value}>{info.carbs}</span>total carbs (g)</li>
               <li><span className={style.value}>{info.fiber}</span>fiber (g)</li>
-              <li><span className={style.value}>{info.sugars}</span>sugar alcohol (g)</li>
             </ul>        
             
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -88,6 +88,7 @@ export const pageQuery = graphql`
         calories
         fat
         carbs
+        protein
         fiber
         sugars
         prepTime

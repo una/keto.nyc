@@ -3,36 +3,54 @@ title: "Double Chocolate Strawberry Cake"
 date: '2018-08-06'
 type: recipe
 funFact: "Made for Ben's 26th birthday!"
-image1: ./media/IMG_1417.jpg
-image2: ./media/IMG_1420.jpg
-servings: 12
-netCarbs: 2.5
-calories: 178
-fat: 6
-carbs: 12
-fiber: 2
-sugars: 8.5
-prepTime: "10 mins"
-cookTime: "15 mins"
-readyTime: "8.5 hours"
+image1: ./media/IMG_1411.jpg
+image2: ./media/IMG_1417.jpg
+servings: 16
+netCarbs: 2
+calories: 278
+fat: '?'
+carbs: 10
+protein: 10
+fiber: 8
+prepTime: "5 minutes"
+cookTime: "30 minutes"
+readyTime: "1 hour"
+category: "desert"
+tags:
+  - desert
+  - chocolate
+  - cake
+  - holiday
 ---
 
 ## You'll Need:
 
-- 1/2 cup almond meal
-- 1/4 cup butter, melted
-- 2 (8 ounce) packages cream cheese, softened
-- 2 eggs
-- 3/4 cup Erythritol Sweetener
-- 1 teaspoon vanilla extract
-- A few sliced Strawberries
+### For the Dough:
+
+- 1/2 cup coconut flour
+- 1/2 cup cocoa powder
+- 1/2 tsp baking soda
+- 1 tsp baking powder
+- 1 cup [powdered erythritol](https://amzn.to/2OwdAZD)
+- 6 large eggs
+- 6 tbsp coconut oil, melted
+- 6 tbsp coconut milk
+- 8 Large Strawberries
+
+### For the Icing:
+- 1 cup coconut milk (full fat)
+- 1 1/4 cups [Lily's chocolate chips](https://amzn.to/2nuCwVW)
+- 1/4 cup powdered erythritol
 
 ## Directions:
 
-1. Preheat oven to 350 degrees F (175 degrees C). Line 12 muffin cups with paper liners.
-2. Mix almond meal and butter together in a bowl; spoon into the bottoms of the paper liners and press into a flat crust.
-3. Beat cream cheese, eggs, sweetener, and vanilla extract together in a bowl with an electric mixer set to medium until smooth; spoon over the crust layer in the paper liners.
-4. Bake in the preheated oven until the cream cheese mixture is nearly set in the middle, 15 to 17 minutes.
-5. Let cupcakes cool at room temperature until cool enough to handle. Refrigerate 8 hours to overnight before serving.
+1. Preheat the oven to 350 degrees Fahrenheit. Line and grease *two* 8 x 8-inch square pans and set aside. 
+2. In a high-speed blender or food processor, combine all your ingredients and blend until a thick batter remains. Ensure you regularly scrape down the sides to ensure all the ingredients are fully incorporated. *Add baking powder last*
+3. Pour half of the batter into each lined pan and bake for 30-35 minutes, or until a skewer comes out the center.
+4. Once cool, mix coconut milk, erythritol, and chocolate chips together to make the frosting. Refrigerate to firm up slightly.
+5. Once more firm, apply a thick layer frosting on top of one of your cakes sheets. Stack the other sheet of cake on top.
+6. Continue to heavily frost all over the cake and top with sliced strawberries.
+
+<small>* Adopted from [The Big Man's World Recipe](https://thebigmansworld.com/2018/06/21/flourless-paleo-vegan-chocolate-cake-keto-low-carb/)</small>
 
 ![](./media/salty_egg.jpg)

@@ -5,34 +5,39 @@ type: recipe
 funFact: "Una discovered soyrizo with Ben in LA"
 image1: ./media/IMG_1390.jpg
 image2: ./media/IMG_1391.jpg
-servings: 12
-netCarbs: 2.5
-calories: 178
-fat: 6
-carbs: 12
-fiber: 2
-sugars: 8.5
-prepTime: "10 mins"
-cookTime: "15 mins"
-readyTime: "8.5 hours"
+servings: 1
+netCarbs: 7
+calories: 413
+fat: 34
+protein: 23
+carbs: 8
+fiber: 1
+sugars: 0
+prepTime: "5 minutes"
+cookTime: "10 minutes"
+readyTime: "15 minutes"
+category: "lunch"
+tags:
+  - lunch
+  - savory
+  - quick
+  - easy
+  - vegetarian
 ---
+
+I absolutely *love* the soyrizo from Trader Joe's. If you haven't tried it yet, you should!
 
 ## You'll Need:
 
-- 1/2 cup almond meal
-- 1/4 cup butter, melted
-- 2 (8 ounce) packages cream cheese, softened
-- 2 eggs
-- 3/4 cup Erythritol Sweetener
-- 1 teaspoon vanilla extract
-- A few sliced Strawberries
+- 2 large eggs
+- 1 tablespoon coconut oil
+- 50g Trader Joe's Soyrizo
+- 15g feta cheese
 
 ## Directions:
 
-1. Preheat oven to 350 degrees F (175 degrees C). Line 12 muffin cups with paper liners.
-2. Mix almond meal and butter together in a bowl; spoon into the bottoms of the paper liners and press into a flat crust.
-3. Beat cream cheese, eggs, sweetener, and vanilla extract together in a bowl with an electric mixer set to medium until smooth; spoon over the crust layer in the paper liners.
-4. Bake in the preheated oven until the cream cheese mixture is nearly set in the middle, 15 to 17 minutes.
-5. Let cupcakes cool at room temperature until cool enough to handle. Refrigerate 8 hours to overnight before serving.
-
-![](./media/salty_egg.jpg)
+1. Heat 1 tablespoon of coconut oil in a medium pan
+2. crack 2 eggs into the pan and break up the yolks and whites as you stir them in
+3. Add soyrizo onto the eggs and stir continuously
+4. Add feta when the eggs and soyrizo are almost finished cooking
+5. Serve with roasted veggies 😊 (not included in nutrition information)
