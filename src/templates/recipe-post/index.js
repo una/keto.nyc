@@ -10,43 +10,57 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pathContext
     const info = post.frontmatter
+    console.log(info.image1)
 
     return (
       <div>
         <Helmet title={`${info.title} | ${siteTitle}`} />
-        <h1>{info.title}</h1>
+        <div className={style.recipe}>
+          <figure className={style.mediaContainer}>
+            <img src={info.image1.childImageSharp.resolutions.src} srcSet={info.image1.childImageSharp.resolutions.srcSet} />
+            <img src={info.image2.childImageSharp.resolutions.src} srcSet={info.image2.childImageSharp.resolutions.srcSet} />
+          </figure>
 
-        <ul className={style.nutrition}>
-          <li><span className={style.value}>{info.servings}</span>servings</li>
-          <li><span className={style.value}>{info.netCarbs}</span>net carbs</li>
-          <li><span className={style.value}>{info.calories}</span>calories</li>
-          <li><span className={style.value}>{info.fat}</span>fat (g)</li>
-          <li><span className={style.value}>{info.carbs}</span>carbs (g)</li>
-          <li><span className={style.value}>{info.fiber}</span>fiber (g)</li>
-          <li><span className={style.value}>{info.sugars}</span>sugar alcohol (g)</li>
-        </ul>        
-        
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className={style.content}>
+            <h1 className={style.title}>{info.title}</h1>
 
-        <p>{info.date}</p>
+            <ul className={style.nutrition}>
+              <li><span className={style.value}>{info.servings}</span>servings</li>
+              <li><span className={style.value}>{info.netCarbs}</span>net carbs</li>
+              <li><span className={style.value}>{info.calories}</span>calories</li>
+              <li><span className={style.value}>{info.fat}</span>fat (g)</li>
+              <li><span className={style.value}>{info.carbs}</span>carbs (g)</li>
+              <li><span className={style.value}>{info.fiber}</span>fiber (g)</li>
+              <li><span className={style.value}>{info.sugars}</span>sugar alcohol (g)</li>
+            </ul>        
+            
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        <ul>
-          {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
-          )}
+            <div className={style.footer}>
+              {/* <div className={style.meta}>
+                <p>{info.date}</p>
+                <p>*Little side note: {info.funFact}</p>
+              </div> */}
+              <ul className={style.prevNext}>
+                {previous && (
+                  <li>
+                    <Link to={previous.fields.slug} rel="prev">
+                      ← {previous.frontmatter.title}
+                    </Link>
+                  </li>
+                )}
 
-          {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
-          )}
-        </ul>
+                {next && (
+                  <li>
+                    <Link to={next.fields.slug} rel="next">
+                      {next.frontmatter.title} →
+                </Link>
+                  </li>
+                )}
+              </ul>
+            </div>
+          </div>
+        </div>  
       </div>
     )
   }
@@ -68,6 +82,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        funFact
         servings
         netCarbs
         calories
@@ -78,6 +93,26 @@ export const pageQuery = graphql`
         prepTime
         cookTime
         readyTime
+        image1 {
+          childImageSharp {
+            resolutions(width: 800) {
+              width
+              height
+              src
+              srcSet
+            }
+          }
+        }
+        image2 {
+          childImageSharp {
+            resolutions(width: 800) {
+              width
+              height
+              src
+              srcSet
+            }
+          }
+        }
       }
     }
   }

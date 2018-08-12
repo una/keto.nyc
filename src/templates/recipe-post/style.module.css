@@ -1,17 +1,76 @@
 .nutrition {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
 }
 
 .nutrition li {
   display: flex;
   flex-direction: column;
-  width: 7rem;
+  flex-basis: 5rem;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 .value {
-  padding: 2rem 0;
-  font-size: 2rem;
+  padding: 1em 0;
+  font-size: 1.7rem;
   border: 1px solid lightgray;
+}
+
+li + li .value {
+  border-left: none;
+  border-right: 1px solid lightgray;
+}
+
+.title {
+  font-size: 3.5rem;
+}
+
+.recipe {
+  display: flex;
+}
+
+.mediaContainer {
+  height: 100vh;
+  max-width: 400px;
+  display: block;
+  top: 0;
+  margin-right: 4rem;
+  position: sticky;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mediaContainer img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mediaContainer img:nth-child(2) {
+  margin-top: -8px;
+}
+
+.meta,
+.prevNext {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  width: calc(100% - 4rem); 
+  background: #ececec;
+  padding: 2em;
+  font-size: 0.8rem;
+  margin: 2rem 0;
+}
+
+.prevNext {
+  list-style: none;
+  margin: 0;
 }
