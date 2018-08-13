@@ -8,7 +8,7 @@ image2: ./media/IMG_1417.jpg
 servings: 16
 netCarbs: 2
 calories: 278
-fat: '?'
+fat: 0
 carbs: 10
 protein: 10
 fiber: 8
