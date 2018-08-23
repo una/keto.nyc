@@ -1,8 +1,8 @@
 ---
-title: "Keto Strawberry Cheesecake Cupcakes"
+title: "Peanut Butter Magic Mug Cake"
 date: '2018-07-22'
 type: recipe
-funFact: "This recipe was first made for Una's 26th birthday"
+funFact: "Una was just really"
 image1: ./media/IMG_1363.jpg
 image2: ./media/IMG_1370.jpg
 servings: 12
@@ -16,11 +16,12 @@ sugars: 8.5
 prepTime: "10 mins"
 cookTime: "15 mins"
 readyTime: "8.5 hours"
-category: "desert"
+category: "dessert"
 tags:
   - desert
   - cupcakes
   - holiday
+highlight: true
 ---
 
 ## You'll Need:

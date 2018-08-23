@@ -8,6 +8,11 @@
   grid-auto-flow: row dense;
 }
 
+.highlight {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
 .homePagePost {
   list-style: none;
   outline: 1px solid hotpink;
