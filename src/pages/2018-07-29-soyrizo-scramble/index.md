@@ -17,6 +17,7 @@ prepTime: "5 minutes"
 cookTime: "10 minutes"
 readyTime: "15 minutes"
 category: "lunch"
+featured: false
 tags:
   - lunch
   - savory

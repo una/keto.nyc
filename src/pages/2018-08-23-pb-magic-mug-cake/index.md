@@ -17,6 +17,7 @@ prepTime: "1 minute"
 cookTime: "2-3 minutes"
 readyTime: "4 minutes"
 category: "dessert"
+featured: false
 tags:
   - dessert
   - mug cake

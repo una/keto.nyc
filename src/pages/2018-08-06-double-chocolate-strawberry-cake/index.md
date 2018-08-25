@@ -1,5 +1,5 @@
 ---
-title: "Double Chocolate Strawberry Cake"
+title: "Double Chocolate Keto Cake"
 date: '2018-08-06'
 type: recipe
 funFact: "Made for Ben's 26th birthday!"
@@ -16,6 +16,7 @@ prepTime: "5 minutes"
 cookTime: "30 minutes"
 readyTime: "1 hour"
 category: "desert"
+featured: true
 tags:
   - desert
   - chocolate

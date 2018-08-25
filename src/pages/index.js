@@ -40,6 +40,21 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            featured
+            image1 {
+              childImageSharp {
+                resolutions(width: 600) {
+                  width
+                  height
+                  src
+                  srcSet
+                }
+              }
+            }
+            netCarbs
+            calories
+            fat
+            protein
           }
         }
       }

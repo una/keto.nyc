@@ -17,6 +17,7 @@ prepTime: "10 mins"
 cookTime: "15 mins"
 readyTime: "8.5 hours"
 category: "desert"
+featured: false
 tags:
   - desert
   - cupcakes
