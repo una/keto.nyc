@@ -1,11 +1,13 @@
+@import '../../global-styles/variables.module.css';
+
 .homePageList {
   display: grid;
   width: 100vw;
   margin: 0 auto;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
   grid-auto-flow: row dense;
-  grid-gap: 1rem;
+  grid-gap: 1px;
 }
 
 .highlight {
@@ -13,16 +15,34 @@
   grid-row: span 2;
 }
 
+.highlight .header {
+  font-size: 2rem;
+}
+
 .post {
   list-style: none;
   background: #9fcfaf;
-  max-height: 500px;
   height: 100%;
 }
 
 .post {
   display: flex;
   flex-direction: column;
+}
+
+.header {
+  font-family: var(--fontFamilyHeader);
+  font-size: 1.4rem;
+  margin-top: -1em;
+  margin-left: -2rem;
+  line-height: 1.2;
+  background: yellow;
+  color: black;
+  display: inline-block;
+}
+
+.post a {
+  text-decoration: none;
 }
 
 /* .post:nth-child(2n) {
@@ -50,7 +70,7 @@
 }
 
 .textArea {
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .mediaContainer {
@@ -61,4 +81,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.nutrition {
+  display: none;
 }

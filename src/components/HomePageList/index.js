@@ -14,22 +14,22 @@ class HomePageList extends React.Component {
 
           return (
             <li key={node.fields.slug} className={classNames(node.frontmatter.featured && style.highlight, style.post)}>
-              <figure className={style.mediaContainer}>
-                <img src={node.frontmatter.image1.childImageSharp.resolutions.src} srcSet={node.frontmatter.image1.childImageSharp.resolutions.srcSet} />
-              </figure>
-              <div className={style.textArea}>
-                <h3>
-                  <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <ul className={style.nutrition}>
-                  <li><span className={style.value}>{node.frontmatter.calories}</span>calories</li>
-                  <li><span className={style.value}>{node.frontmatter.netCarbs}</span>net carbs (g)</li>
-                  <li><span className={style.value}>{node.frontmatter.fat}</span>fat (g)</li>
-                  <li><span className={style.value}>{node.frontmatter.protein}</span>protein (g)</li>
-                </ul> 
-              </div>
+              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                  <figure className={style.mediaContainer}>
+                    <img src={node.frontmatter.image1.childImageSharp.resolutions.src} srcSet={node.frontmatter.image1.childImageSharp.resolutions.srcSet} />
+                  </figure>
+                  <div className={style.textArea}>
+                    <h3 className={style.header}>
+                        {title}
+                    </h3>
+                    <ul className={style.nutrition}>
+                      <li><span className={style.value}>{node.frontmatter.calories}</span>calories</li>
+                      <li><span className={style.value}>{node.frontmatter.netCarbs}</span>net carbs (g)</li>
+                      <li><span className={style.value}>{node.frontmatter.fat}</span>fat (g)</li>
+                      <li><span className={style.value}>{node.frontmatter.protein}</span>protein (g)</li>
+                    </ul> 
+                  </div>
+                </Link>
             </li>
           )
         })
