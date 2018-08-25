@@ -3,8 +3,8 @@ title: "Cheddar Cloud Biscuits with Lox"
 date: '2018-08-25'
 type: recipe
 funFact: "We had these on a little study day/hackathon"
-image1: ./media/IMG_1390.jpg
-image2: ./media/IMG_1391.jpg
+image1: ./media/IMG_1600.jpg
+image2: ./media/IMG_1615.jpg
 servings: 4
 netCarbs: 1
 calories: 131
@@ -28,7 +28,7 @@ tags:
 
 ### Cloud biscuit
 
-- 3/4 cup cheddar cheese
+- 3/4 cup sharp cheddar cheese
 - 4 oz almond flour
 - 1 tsp baking powder
 - 1 tsp cayenne pepper (or chilli powder)
