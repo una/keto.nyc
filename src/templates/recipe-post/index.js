@@ -17,8 +17,8 @@ class BlogPostTemplate extends React.Component {
         <Helmet title={`${info.title} | ${siteTitle}`} />
         <div className={style.recipe}>
           <figure className={style.mediaContainer}>
-            <img src={info.image1.childImageSharp.resolutions.src} srcSet={info.image1.childImageSharp.resolutions.srcSet} />
-            <img src={info.image2.childImageSharp.resolutions.src} srcSet={info.image2.childImageSharp.resolutions.srcSet} />
+            <img src={info.image1.childImageSharp.resolutions.src} srcSet={info.image1.childImageSharp.resolutions.srcSet} alt={`Image of ${info.title}, a keto recipe`}/>
+            <img src={info.image2.childImageSharp.resolutions.src} srcSet={info.image2.childImageSharp.resolutions.srcSet} alt={`Image of ${info.title}, a keto recipe`}/>
           </figure>
 
           <div className={style.content}>

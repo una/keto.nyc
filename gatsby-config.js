@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Blog",
-    author: "Kyle Mathews",
+    title: "keto.nyc",
+    author: "Una Kravets",
+    description: "Ketogenic diet recipes and restaurant reviews for NYC area keto dishes",
+    tags: "keto, diet, recipes, new york city, nyc"
   },
   plugins: [
     {
