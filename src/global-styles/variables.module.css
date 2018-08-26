@@ -1,3 +1,5 @@
 :root {
   --fontFamilyHeader: 'Permanent Marker', serif, cursive;
 }
+
+@custom-media --mobileUp (min-width: 500px);

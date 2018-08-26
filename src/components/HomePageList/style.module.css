@@ -5,7 +5,7 @@
   width: 100%;
   margin: 0 auto;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-rows: repeat( auto-fit, minmax(400px, 1fr) );
   grid-auto-flow: row dense;
   grid-gap: 1px;
 }
@@ -16,13 +16,13 @@
 }
 
 .highlight .header {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .post {
   list-style: none;
   height: 100%;
-  background: red;
+  min-height: 200px;
 }
 
 .post {
@@ -35,12 +35,11 @@
   font-family: var(--fontFamilyHeader);
   width: 70%;
   position: absolute;
-  font-size: 1.4rem;
-  padding-left: 1em;
+  font-size: 1rem;
+  padding: 0.25em 0.25em 0.25em 1em;
   line-height: 1.2;
-  background-color: yellow;
+  background: rgba(255,255,255,0.8);
   color: black;
-  display: inline-block;
 }
 
 .post a {
@@ -111,4 +110,14 @@
   align-items: center;
   transition-duration: 0.25s;
   opacity: 0;
+}
+
+@media (--mobileUp) {
+  .header {
+    font-size: 1.4rem;
+  }
+
+  .highlight .header {
+    font-size: 2rem;
+  }
 }
