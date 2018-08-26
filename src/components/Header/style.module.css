@@ -1,10 +1,15 @@
+@import '../../global-styles/variables.module.css';
+
 .header {
-  background-color: #eeeeee;
+  background-color: var(--colorSubtleGreen);
   box-shadow: 2px solid;
   padding: 0.5rem 0.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.header a {
+.logo {
   display: block;
   width: 100px;
   margin: 0 auto;
@@ -12,4 +17,31 @@
 
 .header img {
   width: 100%;
+}
+
+.nav {
+  display: flex;
+  margin: 0;
+}
+
+.nav li {
+  list-style: none;
+  flex: 1;
+  margin: 0 0.5em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.nav a:after {
+  content: '▼';
+  font-size: 0.5em;
+  vertical-align: middle;
+  margin-left: 0.5em;
 }

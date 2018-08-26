@@ -2,9 +2,25 @@
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
-  min-height: 40vh;
+  min-height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background: url('https://www.dietdoctor.com/wp-content/uploads/2017/08/DD-486-2-ketomackerel.jpg'), #CFE0E4;
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 1px 0;
+}
+
+.intro a {
+  color: inherit;
+}
+
+.intro h2 {
+  border: 1px solid white;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1em;
 }

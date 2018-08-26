@@ -95,4 +95,12 @@ li + li .value {
 .prevNext {
   list-style: none;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.prevNext a {
+  color: black;
 }

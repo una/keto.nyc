@@ -7,10 +7,16 @@ class Header extends React.Component {
     return (
       <header className={style.header}>
         <Link to={'/'} >
-          <figure>
+          <figure className={style.logo}>
             <img src='/logo.svg' />
           </figure>
         </Link>
+          <ul className={style.nav}>
+            <li><Link to={'/'}>Snacks</Link></li>
+            <li><Link to={'/'}>Meals</Link></li>
+            <li><Link to={'/'}>Desserts</Link></li>
+            <li><Link to={'/'}>About</Link></li>
+          </ul>
       </header>
     )
   }
