@@ -1,3 +1,5 @@
+@import '../../global-styles/variables.module.css';
+
 .recipe h1 {
   line-height: 1;
   z-index: 1;
@@ -61,10 +63,11 @@ li + li .value {
   display: block;
   top: 0;
   position: sticky;
+  line-height: 0;
 }
 
 .content {
-  max-width: 680px;
+  max-width: 720px;
   padding: 1rem 2rem;
   margin: 0 auto;
 }
@@ -73,10 +76,6 @@ li + li .value {
   height: 50%;
   width: 100%;
   object-fit: cover;
-}
-
-.mediaContainer img:nth-child(2) {
-  margin-top: -8px;
 }
 
 .meta,
