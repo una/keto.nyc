@@ -1,6 +1,10 @@
 .intro {
-  width: 100%;
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }

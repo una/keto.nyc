@@ -35,31 +35,26 @@ class BlogPostTemplate extends React.Component {
             </ul>        
             
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
-            <div className={style.footer}>
-              {/* <div className={style.meta}>
-                <p>{info.date}</p>
-                <p>*Little side note: {info.funFact}</p>
-              </div> */}
-              <ul className={style.prevNext}>
-                {previous && (
-                  <li>
-                    <Link to={previous.fields.slug} rel="prev">
-                      ← {previous.frontmatter.title}
-                    </Link>
-                  </li>
-                )}
-
-                {next && (
-                  <li>
-                    <Link to={next.fields.slug} rel="next">
-                      {next.frontmatter.title} →
-                </Link>
-                  </li>
-                )}
-              </ul>
-            </div>
           </div>
+        </div>
+        <div className={style.footer}>
+          <ul className={style.prevNext}>
+            {previous && (
+              <li>
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              </li>
+            )}
+
+            {next && (
+              <li>
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              </li>
+            )}
+          </ul>
         </div>  
       </div>
     )

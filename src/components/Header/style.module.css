@@ -1,5 +1,5 @@
 .header {
-  background-color: #ffbbbb;
+  background-color: #eeeeee;
   box-shadow: 2px solid;
   padding: 0.5rem 0.5rem 0;
 }
@@ -7,6 +7,7 @@
 .header a {
   display: block;
   width: 100px;
+  margin: 0 auto;
 }
 
 .header img {
