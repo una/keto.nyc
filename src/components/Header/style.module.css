@@ -1,0 +1,13 @@
+.header {
+  background-color: #ffbbbb;
+  box-shadow: 2px solid;
+  padding: 0.5rem 0.5rem 0;
+}
+
+.header figure {
+  width: 100px;
+}
+
+.header img {
+  width: 100%;
+}

@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import '../global-styles/base.module.css'
-import Bio from '../components/Bio'
+import Intro from '../components/Intro'
 import HomePageList from '../components/HomePageList'
 
 class BlogIndex extends React.Component {
@@ -14,7 +14,7 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        <Bio />
+        <Intro />
         <HomePageList posts={posts} />
       </div>
     )
