@@ -45,6 +45,10 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             featured
+            netCarbs
+            calories
+            fat
+            protein
             image1 {
               childImageSharp {
                 resolutions(width: 600) {
@@ -55,10 +59,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            netCarbs
-            calories
-            fat
-            protein
           }
         }
       }
