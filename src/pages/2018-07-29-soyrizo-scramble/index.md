@@ -20,6 +20,7 @@ category: "lunch"
 featured: false
 tags:
   - lunch
+  - meal
   - savory
   - quick
   - easy

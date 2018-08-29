@@ -18,7 +18,7 @@ readyTime: "1 hour"
 category: "desert"
 featured: true
 tags:
-  - desert
+  - dessert
   - chocolate
   - cake
   - holiday

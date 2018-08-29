@@ -20,6 +20,7 @@ category: "dessert"
 featured: false
 tags:
   - dessert
+  - snack
   - mug cake
   - high protein
 ---

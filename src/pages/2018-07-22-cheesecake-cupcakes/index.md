@@ -19,7 +19,7 @@ readyTime: "8.5 hours"
 category: "desert"
 featured: false
 tags:
-  - desert
+  - dessert
   - cupcakes
   - holiday
 ---
