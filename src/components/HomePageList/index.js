@@ -15,7 +15,7 @@ class HomePageList extends React.Component {
 
           return (
             <li key={node.fields.slug} className={classNames(post.featured && style.highlight, style.post)}>
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <Link to={node.fields.slug}>
                   <h3 className={style.header}>
                     {title}
                   </h3>

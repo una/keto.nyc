@@ -22,7 +22,7 @@ class Header extends React.Component {
                   ) {
                     return (
                       <li>
-                        <Link to={'/'}>
+                        <Link to={node.fields.slug}>
                           <figure className={style.mediaContainer}>
                             <img src={post.image1.childImageSharp.resolutions.src} srcSet={post.image1.childImageSharp.resolutions.srcSet} />
                           </figure> 
@@ -44,7 +44,7 @@ class Header extends React.Component {
                   ) {
                     return (
                       <li>
-                        <Link to={'/'}>
+                        <Link to={node.fields.slug}>
                           <figure className={style.mediaContainer}>
                             <img src={post.image1.childImageSharp.resolutions.src} srcSet={post.image1.childImageSharp.resolutions.srcSet} />
                           </figure>
@@ -66,7 +66,7 @@ class Header extends React.Component {
                   ) {
                     return (
                       <li>
-                        <Link to={'/'}>
+                        <Link to={node.fields.slug}>
                           <figure className={style.mediaContainer}>
                             <img src={post.image1.childImageSharp.resolutions.src} srcSet={post.image1.childImageSharp.resolutions.srcSet} />
                           </figure>

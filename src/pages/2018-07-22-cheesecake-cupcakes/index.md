@@ -33,7 +33,7 @@ tags:
 - 3/4 cup [erythritol sweetener](https://amzn.to/2OwdAZD)
 - 1 teaspoon vanilla extract
 - 4 large strawberries, sliced
-- Sugarfree whipped heavy cream (love [this](https://www.landolakes.com/products/whipping-cream-and-half-half/aerosol-whipped-cream/) stuff!)
+- Sugar-free whipped heavy cream (love [this](https://www.landolakes.com/products/whipping-cream-and-half-half/aerosol-whipped-cream/) stuff!)
 
 ## Directions:
 
