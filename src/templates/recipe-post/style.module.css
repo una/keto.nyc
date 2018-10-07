@@ -33,20 +33,20 @@
 .nutrition li {
   display: flex;
   flex-direction: column;
-  flex-basis: 5rem;
+  flex-basis: 4rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .value {
   padding: 0.5em 0;
-  font-size: 1.7rem;
+  font-size: 1.25rem;
   border: 1px solid lightgray;
 }
 
 li + li .value {
-  border-left: none;
-  border-right: 1px solid lightgray;
+  border: 1px solid lightgray;
+  margin-left: -1px;
 }
 
 .title {
@@ -67,9 +67,8 @@ li + li .value {
 }
 
 .content {
-  max-width: 720px;
+  max-width: 700px;
   padding: 1rem 2rem;
-  margin: 0 auto;
 }
 
 .mediaContainer img {
@@ -103,4 +102,35 @@ li + li .value {
 
 .prevNext a {
   color: black;
+}
+
+@media (max-width: 980px) {
+  .recipe {
+    flex-direction: column;
+  }
+
+  .mediaContainer {
+    width: 100vw;
+    display: block;
+    height: 50vh;
+    position: relative;
+    max-width: none;
+  }
+
+  .mediaContainer img {
+    height: 100%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .mediaContainer {
+    height: 60vh;
+  }
+
+  .mediaContainer img {
+    height: 50%;
+    width: 100%;
+    object-position: center;
+  }
 }
