@@ -1,7 +1,7 @@
 @import '../../global-styles/variables.module.css';
 
 .header {
-  background-color: var(--colorSubtleGreen);
+  background-color: var(--colorLightGray);
   box-shadow: 2px solid;
   padding: 0.5rem 0.5rem 0;
   width: 100%;
@@ -12,6 +12,14 @@
 }
 
 .logo {
+  border-bottom: 0;
+}
+
+.logo::before {
+  content: none;
+}
+
+.logoImg {
   display: block;
   width: 100px;
   margin: 0 auto;
@@ -44,19 +52,6 @@
 
 .navLinkMore {
   margin-right: 1rem;
-}
-
-.navLinkMore:after {
-  content: '▼';
-  font-size: 0.5em;
-  vertical-align: middle;
-  transition-duration: 0.5s;
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  position: absolute;
-  right: -1.5em;
-  top: 0.5em;
 }
 
 .moreContent {
@@ -111,4 +106,13 @@
 .navItem:focus-within .navLinkMore:after,
 .navItem:hover .navLinkMore:after {
   transform: rotateX(180deg);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

@@ -6,8 +6,8 @@ class Header extends React.Component {
   render() {
     return (
       <header className={style.header}>
-        <Link to={'/'} >
-          <figure className={style.logo}>
+        <Link to={'/'} className={style.logo}>
+          <figure className={style.logoImg}>
             <img src='/logo.svg' />
           </figure>
         </Link>
@@ -34,7 +34,8 @@ class Header extends React.Component {
                 })}
             </ul>
           </li>
-          <li className={style.navItem}><Link className={style.navLinkMore} to={'/'}>Meals</Link>
+          <li className={style.navItem}>
+          <Link className={style.navLinkMore} to={'/'}>Meals</Link>
             <ul className={style.moreContent}>
               {
                 this.props.posts.map(({ node }) => {

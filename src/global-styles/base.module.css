@@ -37,4 +37,27 @@ body {
 
 a {
   color: var(--colorPrimary);
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition-duration: 0.25s;
+  position: relative;
+  z-index: 1;
+}
+
+a::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scaleX(0);transform-origin: left;
+  transition-duration: 0.25s;
+}
+
+a:hover::before {
+  background-color: var(--colorSubtleGreen);
+  transform: scaleX(1);
 }
