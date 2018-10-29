@@ -53,5 +53,3 @@ tags:
 6. Continue to heavily frost all over the cake and top with sliced strawberries.
 
 <small>* Adopted from [The Big Man's World Recipe](https://thebigmansworld.com/2018/06/21/flourless-paleo-vegan-chocolate-cake-keto-low-carb/)</small>
-
-![](./media/salty_egg.jpg)

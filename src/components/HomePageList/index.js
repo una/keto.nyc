@@ -2,7 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Link from 'gatsby-link'
 import style from './style.module.css'
-import classNames from 'classNames'
+import classnames from 'classnames'
 
 class HomePageList extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class HomePageList extends React.Component {
           const post = node.frontmatter
 
           return (
-            <li key={node.fields.slug} className={classNames(post.featured && style.highlight, style.post)}>
+            <li key={node.fields.slug} className={classnames(post.featured && style.highlight, style.post)}>
                 <Link to={node.fields.slug}>
                   <h3 className={style.header}>
                     {title}

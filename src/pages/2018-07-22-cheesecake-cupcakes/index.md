@@ -3,8 +3,8 @@ title: "Keto Strawberry Cheesecake Cupcakes"
 date: '2018-07-22'
 type: recipe
 funFact: "This recipe was first made for Una's 26th birthday"
-image1: ./media/IMG_1363.jpg
-image2: ./media/IMG_1370.jpg
+image1: ./media/IMG_1363.JPG
+image2: ./media/IMG_1370.JPG
 servings: 12
 netCarbs: 2.5
 calories: 178
@@ -44,3 +44,6 @@ tags:
 5. Let cupcakes cool at room temperature until cool enough to handle. Refrigerate 8 hours to overnight before serving.
 6. When the cupcakes are set, apply a thin coating of whipped cream and lay the sliced strawberries on top
 7. Top it off with more whipped cream!
+
+![](./media/IMG_0171.jpg)
+![](./media/IMG_0207.jpg)
