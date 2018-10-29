@@ -1,6 +1,6 @@
 
 /* Import Type */
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:300,300i,500,600');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto:300,300i,500,600');
 @import './variables.module.css';
 
 * {
@@ -12,13 +12,13 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--fontFamilyBody);
   line-height: 1.8;
   font-weight: 300;
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: var(--fontFamilyHeader);
   margin: 0;
 }
 
