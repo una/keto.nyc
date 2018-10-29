@@ -44,3 +44,6 @@ tags:
 5. Let cupcakes cool at room temperature until cool enough to handle. Refrigerate 8 hours to overnight before serving.
 6. When the cupcakes are set, apply a thin coating of whipped cream and lay the sliced strawberries on top
 7. Top it off with more whipped cream!
+
+![](./media/IMG_0171.jpg)
+![](./media/IMG_0207.jpg)
