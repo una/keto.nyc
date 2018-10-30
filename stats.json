@@ -1,0 +1,68 @@
+{
+  "assetsByChunkName": {
+    "path---2018-08-26-garlic-butter-shrimp-zoodles": [
+      "path---2018-08-26-garlic-butter-shrimp-zoodles-9f1c7b870a937780216c.js",
+      "path---2018-08-26-garlic-butter-shrimp-zoodles-9f1c7b870a937780216c.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-741e9682597d070f62db.js",
+      "component---src-pages-index-js-741e9682597d070f62db.js.map"
+    ],
+    "path---": [
+      "path----7309da147187e5094842.js",
+      "path----7309da147187e5094842.js.map"
+    ],
+    "path---2018-08-06-double-chocolate-strawberry-cake": [
+      "path---2018-08-06-double-chocolate-strawberry-cake-b5a2d436ad73b2fd95cd.js",
+      "path---2018-08-06-double-chocolate-strawberry-cake-b5a2d436ad73b2fd95cd.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-3b11dfff7471d81fd716.js",
+      "component---src-layouts-index-js-3b11dfff7471d81fd716.js.map"
+    ],
+    "path---2018-08-25-cheddar-cloud-biscuits-with-lox": [
+      "path---2018-08-25-cheddar-cloud-biscuits-with-lox-9e70bc8322e5f06f3831.js",
+      "path---2018-08-25-cheddar-cloud-biscuits-with-lox-9e70bc8322e5f06f3831.js.map"
+    ],
+    "path---2018-08-23-pb-magic-mug-cake": [
+      "path---2018-08-23-pb-magic-mug-cake-b8248a1f118d92b3ede1.js",
+      "path---2018-08-23-pb-magic-mug-cake-b8248a1f118d92b3ede1.js.map"
+    ],
+    "path---index": [
+      "path---index-a19f3571240217f433af.js",
+      "path---index-a19f3571240217f433af.js.map"
+    ],
+    "commons": [
+      "commons-ba4cb63d6a7a0250cd9f.js",
+      "build-js-styles.css",
+      "commons-ba4cb63d6a7a0250cd9f.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---2018-07-29-soyrizo-scramble": [
+      "path---2018-07-29-soyrizo-scramble-dc942aad9112747cd3d4.js",
+      "path---2018-07-29-soyrizo-scramble-dc942aad9112747cd3d4.js.map"
+    ],
+    "path---2018-07-22-cheesecake-cupcakes": [
+      "path---2018-07-22-cheesecake-cupcakes-56fd75433e75d08d1808.js",
+      "path---2018-07-22-cheesecake-cupcakes-56fd75433e75d08d1808.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-d115a4f44861bd5edfff.js",
+      "build-js-styles.css",
+      "app-d115a4f44861bd5edfff.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-templates-recipe-post-index-js": [
+      "component---src-templates-recipe-post-index-js-eff980c1ee5c73209974.js",
+      "component---src-templates-recipe-post-index-js-eff980c1ee5c73209974.js.map"
+    ]
+  }
+}
