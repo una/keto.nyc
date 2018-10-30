@@ -4,8 +4,8 @@
   display: grid;
   width: 100%;
   margin: 0 auto;
-  grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
-  grid-template-rows: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  grid-template-rows: repeat( auto-fit, minmax(200px, 1fr) );
   grid-auto-flow: row dense;
   grid-gap: 10px;
   padding: 10px;
@@ -35,14 +35,22 @@
 .header {
   font-family: var(--fontFamilyHeader);
   letter-spacing: 0.1rem;
-  width: calc(100% - 1rem);
-  margin: 0.5rem 0 0 1rem;
-  top: 0;
   position: absolute;
   font-size: 0.8rem;
   line-height: 1.2;
-  color: white;
   z-index: 2;
+  text-align: center;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.75);
+  width: 50%;
+  min-width: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: black;
+  bottom: 0.5rem;
+  transition-duration: 0.25s;
 }
 
 .post a {
@@ -77,6 +85,11 @@
 .post a:focus .nutrition,
 .post a:hover .nutrition {
   opacity: 1;
+}
+
+.post a:focus .header,
+.post a:hover .header {
+  opacity: 0;
 }
 
 .nutrition {

@@ -7,9 +7,9 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background: url('https://www.dietdoctor.com/wp-content/uploads/2017/08/DD-486-2-ketomackerel.jpg'), #CFE0E4;
-  background-size: 50%;
-  background-position: right;
+  background: url('https://images.unsplash.com/photo-1456404823214-a69ef7a1fae5?ixlib=rb-0.3.5&s=2fe24917492561478a0af0380bbee574&auto=format&fit=crop&w=1650&q=80');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   margin: 1px 0;
 }
@@ -19,8 +19,9 @@
 }
 
 .intro h2 {
-  border: 1px solid white;
   max-width: 500px;
   margin: 0 auto;
   padding: 1em;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.75);
 }
