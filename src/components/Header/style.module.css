@@ -61,6 +61,7 @@
   top: 30px;
   padding-top: 30px;
   pointer-events: all;
+  justify-content: center;
   
   /* hide scrollbars */
   width: 100%;
