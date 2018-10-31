@@ -10,7 +10,6 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pathContext
     const info = post.frontmatter
-    console.log(info.image1)
 
     return (
       <div>
