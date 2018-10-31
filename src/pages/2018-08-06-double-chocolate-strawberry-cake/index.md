@@ -17,6 +17,7 @@ cookTime: "30 minutes"
 readyTime: "1 hour"
 category: "desert"
 featured: true
+published: true
 tags:
   - dessert
   - chocolate

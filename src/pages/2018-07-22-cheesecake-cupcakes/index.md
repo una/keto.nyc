@@ -18,6 +18,7 @@ cookTime: "15 mins"
 readyTime: "8.5 hours"
 category: "desert"
 featured: false
+published: true
 tags:
   - dessert
   - cupcakes
@@ -45,5 +46,4 @@ tags:
 6. When the cupcakes are set, apply a thin coating of whipped cream and lay the sliced strawberries on top
 7. Top it off with more whipped cream!
 
-![](./media/IMG_0171.jpg)
-![](./media/IMG_0207.jpg)
+![](./media/IMG_1366.jpg)

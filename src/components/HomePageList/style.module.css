@@ -41,15 +41,16 @@
   text-align: center;
   border: 1px solid white;
   background: rgba(255, 255, 255, 0.75);
-  width: 50%;
-  min-width: 250px;
-  left: 0;
-  right: 0;
-  bottom: 0.5rem;
+  width: 100%;
+  min-height: 2.8rem;
+  bottom: -1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
-  padding: 0.5em;
+  padding: .5em;
   color: black;
-  transition-duration: 0.25s;
+  transition-duration: .25s;
 }
 
 .post a {
@@ -92,11 +93,9 @@
 }
 
 .nutrition {
-  font-family: var(--fontFamilyHeader);
   display: flex;
   list-style: none;
   position: absolute;
-  font-size: 0.8rem;
   opacity: 0;
   top: 0;
   left: 0;
@@ -116,10 +115,6 @@
 }
 
 @media (--mobileUp) {
-  .header {
-    font-size: 0.8rem;
-  }
-
   .highlight .header {
     font-size: 1.5rem;
   }

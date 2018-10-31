@@ -18,6 +18,7 @@ cookTime: "20 minutes"
 readyTime: "30 minutes"
 category: "snack"
 featured: false
+published: true
 tags:
   - dinner
   - lunch

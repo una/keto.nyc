@@ -1,7 +1,8 @@
 @import '../../global-styles/variables.module.css';
 
 .recipe h1 {
-  line-height: 1;
+  line-height: 1.4;
+  margin-bottom: -0.5rem;
   z-index: 1;
   position: relative;
 }
@@ -50,7 +51,7 @@ li + li .value {
 }
 
 .title {
-  font-size: 3.5rem;
+  font-weight: 300;
 }
 
 .recipe {

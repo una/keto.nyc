@@ -5,7 +5,7 @@ import get from 'lodash/get'
 
 class Template extends React.Component {
   render() {
-    const { location, children } = this.props
+    const { children } = this.props
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
@@ -34,6 +34,7 @@ export const headerPostQuery = graphql`
           frontmatter {
             title
             tags
+            published
             image1 {
               childImageSharp {
                 resolutions(width: 250) {

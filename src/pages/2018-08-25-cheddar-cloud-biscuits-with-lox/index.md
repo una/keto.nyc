@@ -17,7 +17,8 @@ prepTime: "5 minute"
 cookTime: "15 minutes"
 readyTime: "20 minutes"
 category: "snack"
-featured: true
+featured: false
+published: true
 tags:
   - snack
   - lunch

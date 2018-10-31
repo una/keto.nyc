@@ -2,14 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import style from './style.module.css'
 
-class Header extends React.Component {
+export default class Header extends React.Component {
   render() {
     return (
       <header className={style.header}>
         <Link to={'/'} className={style.logo}>
-          <figure className={style.logoImg}>
-            <img src='/logo.svg' />
-          </figure>
+          <h1>keto.nyc</h1>
         </Link>
         <ul className={style.nav}>
           <li className={style.navItem}><Link className={style.navLinkMore} to={'/'}>Snacks</Link>
@@ -18,7 +16,7 @@ class Header extends React.Component {
                 this.props.posts.map(({ node }) => {
                   const post = node.frontmatter
                   if (
-                    post.tags.includes('snack')
+                    post.published && post.tags.includes('snack')
                   ) {
                     return (
                       <li>
@@ -41,7 +39,7 @@ class Header extends React.Component {
                 this.props.posts.map(({ node }) => {
                   const post = node.frontmatter
                   if (
-                    post.tags.includes('meal')
+                    post.published && post.tags.includes('meal')
                   ) {
                     return (
                       <li>
@@ -63,7 +61,7 @@ class Header extends React.Component {
                 this.props.posts.map(({ node }) => {
                   const post = node.frontmatter
                   if (
-                    post.tags.includes('dessert')
+                    post.published && post.tags.includes('dessert')
                   ) {
                     return (
                       <li>
@@ -85,5 +83,3 @@ class Header extends React.Component {
     )
   }
 }
-
-export default Header

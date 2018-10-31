@@ -2,8 +2,8 @@
   --colorPrimary: #0da402;
   --colorSubtleGreen: #d2f9d9;
   --colorLightGray: #f7f7f7;
-  --fontFamilyHeader: 'IBM Plex Mono', monospace;
-  --fontFamilyBody: 'Roboto', serif;
+  --fontFamilyHeader: 'Homemade Apple', monospace;
+  --fontFamilyBody: 'Montserrat', serif;
 }
 
 @custom-media --mobileUp (min-width: 500px);

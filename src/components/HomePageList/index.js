@@ -13,7 +13,8 @@ class HomePageList extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           const post = node.frontmatter
 
-          return (
+          if( post.published) {
+            return (
             <li key={node.fields.slug} className={classnames(post.featured && style.highlight, style.post)}>
                 <Link to={node.fields.slug}>
                   <h3 className={style.header}>
@@ -31,6 +32,7 @@ class HomePageList extends React.Component {
                 </Link>
             </li>
           )
+          }
         })
       }
       </ul>

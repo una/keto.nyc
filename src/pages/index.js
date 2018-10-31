@@ -45,6 +45,7 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             featured
+            published
             netCarbs
             calories
             fat

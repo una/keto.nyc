@@ -18,6 +18,7 @@ cookTime: "2-3 minutes"
 readyTime: "4 minutes"
 category: "dessert"
 featured: false
+published: false
 tags:
   - dessert
   - snack
