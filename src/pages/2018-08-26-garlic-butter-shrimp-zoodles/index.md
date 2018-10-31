@@ -3,8 +3,8 @@ title: "Garlic Butter Shrimp Zoodles"
 date: '2018-08-26'
 type: recipe
 funFact: "A Smith Street creation"
-image1: ./media/IMG_1628.jpg
-image2: ./media/IMG_1632.jpg
+image1: ./media/cover.jpg
+image2: ./media/secondary.jpg
 servings: 2
 netCarbs: 7.5
 calories: 328

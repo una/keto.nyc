@@ -3,8 +3,8 @@ title: "Soyrizo Scramble"
 date: '2018-07-29'
 type: recipe
 funFact: "Una discovered soyrizo with Ben in LA"
-image1: ./media/IMG_1390.jpg
-image2: ./media/IMG_1391.jpg
+image1: ./media/cover.jpg
+image2: ./media/secondary.jpg
 servings: 1
 netCarbs: 7
 calories: 413

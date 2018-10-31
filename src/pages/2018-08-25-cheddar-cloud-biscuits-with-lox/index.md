@@ -3,8 +3,8 @@ title: "Cheddar Cloud Biscuits with Lox"
 date: '2018-08-25'
 type: recipe
 funFact: "We had these on a little study day/hackathon"
-image1: ./media/IMG_1600.jpg
-image2: ./media/IMG_1615.jpg
+image1: ./media/cover.jpg
+image2: ./media/secondary.jpg
 servings: 4
 netCarbs: 4.5
 calories: 252

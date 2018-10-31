@@ -3,8 +3,8 @@ title: "Double Chocolate Keto Cake"
 date: '2018-08-06'
 type: recipe
 funFact: "Made for Ben's 26th birthday!"
-image1: ./media/IMG_1411.jpg
-image2: ./media/IMG_1417.jpg
+image1: ./media/cover.jpg
+image2: ./media/secondary.jpg
 servings: 16
 netCarbs: 2
 calories: 278

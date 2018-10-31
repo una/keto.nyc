@@ -3,8 +3,8 @@ title: "Peanut Butter Protein Magic Mug Cake"
 date: '2018-08-23'
 type: recipe
 funFact: "Una just really wanted a sweet dessert and came up with this one"
-image1: ./media/fpo.jpg
-image2: ./media/fpo.jpg
+image1: ./media/cover.jpg
+image2: ./media/cover.jpg
 servings: 1
 netCarbs: 1
 calories: 207
