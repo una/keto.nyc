@@ -21,6 +21,7 @@ featured: false
 published: true
 tags:
   - lunch
+  - breakfast
   - meal
   - savory
   - quick

@@ -20,7 +20,7 @@ category: "snack"
 featured: false
 published: true
 tags:
-  - snack
+  - snacks
   - lunch
   - savory
   - bread

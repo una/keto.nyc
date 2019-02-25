@@ -5,9 +5,9 @@
   box-shadow: 2px solid;
   padding: 0.5rem 0.5rem 0;
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .logo {
@@ -62,9 +62,10 @@
   left: 0;
   top: 30px;
   padding-top: 30px;
-  pointer-events: all;
   justify-content: center;
   text-align: center;
+  display: flex;
+  pointer-events: none;
   
   /* hide scrollbars */
   width: 100%;
@@ -74,36 +75,42 @@
   box-sizing: content-box; /* So the width will be 100% + 17px */
 }
 
-.moreContent li {
+.subItem {
   max-width: 250px;
   display: inline-block;
+  max-height: 230px;
+  opacity: 0;
+  transition-duration: 0.5s;
+  pointer-events: none;
 }
 
-.moreContent figure {
+.subItem figure {
   height: 160px;
   width: 250px;
 }
 
-.moreContent img {
+.subItem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .navItem {
-  transition-duration: 0.25s;
+  transition-duration: 0.4s;
+  height: 40px;
 }
 
 .navItem:focus,
 .navItem:focus-within,
 .navItem:hover {
-  margin-bottom: 300px;
+  height: 280px;
 }
 
-.navItem:focus .moreContent,
-.navItem:focus-within .moreContent,
-.navItem:hover .moreContent {
-  display: flex;
+.navItem:focus .subItem,
+.navItem:focus-within .subItem,
+.navItem:hover .subItem {
+  pointer-events: all;
+  opacity: 1;
 }
 
 .navItem:focus .navLinkMore:after,

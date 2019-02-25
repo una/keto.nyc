@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                     post.published && post.tags.includes(item.toLowerCase())
                   ) {
                   return (
-                    <li>
+                    <li className={style.subItem}>
                       <Link to={node.fields.slug}>
                         <figure className={style.mediaContainer}>
                           <img src={post.image1.childImageSharp.resolutions.src} srcSet={post.image1.childImageSharp.resolutions.srcSet} />

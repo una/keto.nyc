@@ -21,7 +21,7 @@ featured: false
 published: false
 tags:
   - dessert
-  - snack
+  - snacks
   - mug cake
   - high protein
 ---

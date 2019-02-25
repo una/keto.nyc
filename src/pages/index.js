@@ -15,7 +15,7 @@ class BlogIndex extends React.Component {
       <div>
         <Helmet>
           <title>{siteTitle}</title>
-          <meta name="description" content="Keto / low carb recipes and New York City (NYC) restaurant dish reviews for the ketogenic diet" />
+          <meta name="description" content="Keto recipes and low carb recipes, plus New York City (NYC) restaurant dish reviews for the ketogenic diet" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Helmet>
         <Intro />
